@@ -15,7 +15,7 @@ func SetDebugMode(debug bool) {
 func D(msg ...interface{}) {
     if DebugMode {
         fmt.Println("[DEBUG]", strings.Trim(fmt.Sprint(msg), "[]"))
-    }   
+    }
 }
 
 //Display info
